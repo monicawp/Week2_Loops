@@ -82,15 +82,45 @@ namespace Week2_Loops
 
             // you could not do this with a foreach loop because foreach loops only go from begining to end
 
-            Console.WriteLine("Do you want to play the game? (YES/NO)");
-            string playAgain = Console.ReadLine();
+            //Console.WriteLine("Do you want to play the game? (YES/NO)");
+            //string playAgain = Console.ReadLine();
 
-            while (playAgain == "YES")
+            //while (playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? (YES/NO)");
+            //        playAgain = Console.ReadLine();
+            //}
+
+            //Console.WriteLine("Would you like to check in?(YES/NO)");
+            //string checkIn = Console.ReadLine().ToUpper();
+
+            //while (checkIn == "YES")
+            //{
+            //    Console.WriteLine("PATIENT CHECK IN SYSTEM");
+            //    Console.WriteLine("Please enter your full name");
+            //    checkIn = Console.ReadLine();
+            //    Console.WriteLine("Please enter your 6 digit patient ID");
+            //    checkIn = Console.ReadLine();
+            //    Console.WriteLine("What time is your apt?");
+            //    checkIn = Console.ReadLine();
+            //    Console.WriteLine("You are now checked in!");
+            //}
+
+            string playAgain;
+            do
             {
-                Console.WriteLine("It's a rematch!");
+                Console.WriteLine("Great game!");
                 Console.WriteLine("Do you want to play again? (YES/NO)");
-                    playAgain = Console.ReadLine();
+                playAgain = Console.ReadLine().ToUpper();
             }
+            while (playAgain == "YES");
+
+            Console.WriteLine("Thanks for playing again!");
+
+
+
+
 
 
         }
