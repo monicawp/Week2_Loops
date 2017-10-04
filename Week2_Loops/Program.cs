@@ -107,16 +107,41 @@ namespace Week2_Loops
             //    Console.WriteLine("You are now checked in!");
             //}
 
-            string playAgain;
-            do
-            {
-                Console.WriteLine("Great game!");
-                Console.WriteLine("Do you want to play again? (YES/NO)");
-                playAgain = Console.ReadLine().ToUpper();
-            }
-            while (playAgain == "YES");
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Great game!");
+            //    Console.WriteLine("Do you want to play again? (YES/NO)");
+            //    playAgain = Console.ReadLine().ToUpper();
+            //}
+            //while (playAgain == "YES");
 
-            Console.WriteLine("Thanks for playing again!");
+            //Console.WriteLine("Thanks for playing again!");
+
+
+
+            //string gpA;
+            //do
+            //{
+            //    Console.WriteLine("For what class would you like to calculate your GPA?");
+            //    gpA = Console.ReadLine();
+            //    Console.WriteLine("What is your letter grade in this class?");
+            //    gpA = Console.ReadLine();
+            //    Console.WriteLine("Would you like to add another class to your GPA calculation?");
+            //    gpA = Console.ReadLine().ToLower();
+            //}
+            //while (gpA == "yes");
+
+
+
+            for (int i = 0; i < 20; i++) 
+            {
+                Console.WriteLine(i);
+            }
+
+
+
+
 
 
 
