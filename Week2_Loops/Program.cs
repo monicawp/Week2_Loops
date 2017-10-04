@@ -62,11 +62,11 @@ namespace Week2_Loops
             //    Console.WriteLine(artist);
             //}
 
-            string[] favFoods = { "Pasta", "Lobster", "French Toast", "Peanut Butter", "Avacado", "Tomatoes" };
-            foreach(string food in favFoods)
-            {
-                Console.WriteLine(food);
-            }
+            //string[] favFoods = { "Pasta", "Lobster", "French Toast", "Peanut Butter", "Avacado", "Tomatoes" };
+            //foreach(string food in favFoods)
+            //{
+            //    Console.WriteLine(food);
+            //}
 
             //int[] luckyNum = { 7, 21, 10, 17 }; 
             //foreach(int num in luckyNum)
@@ -74,8 +74,23 @@ namespace Week2_Loops
             //    Console.WriteLine("Your lucky number is " + num);
             //}
 
+            // decdending from 10 
+            //for (int i = 10; i >= 0; i --) 
+            //{
+            //    Console.WriteLine(i);
+            //}
 
+            // you could not do this with a foreach loop because foreach loops only go from begining to end
 
+            Console.WriteLine("Do you want to play the game? (YES/NO)");
+            string playAgain = Console.ReadLine();
+
+            while (playAgain == "YES")
+            {
+                Console.WriteLine("It's a rematch!");
+                Console.WriteLine("Do you want to play again? (YES/NO)");
+                    playAgain = Console.ReadLine();
+            }
 
 
         }
