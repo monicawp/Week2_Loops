@@ -134,10 +134,31 @@ namespace Week2_Loops
 
 
 
-            for (int i = 0; i < 20; i++) 
-            {
-                Console.WriteLine(i);
-            }
+            //for (int i = 0; i < 20; i++) 
+            //{
+            //    if(i % 2 ==0)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+
+            // not very common, keep in mind just dont stress!
+            //for (int i = 1; i <= 4; i++)
+            //{
+            //    for (int j=1; j<=8; j++)
+            //    {
+            //        Console.Write(j); //columns
+            //    }
+            //    Console.WriteLine(); // next row
+            //}
+
+
+
+
+
+
+
 
 
 
